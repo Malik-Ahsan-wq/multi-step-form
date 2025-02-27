@@ -1,0 +1,44 @@
+#root{
+    display: flex
+;
+background: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    
+background: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+     border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin: 6px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 15px darkmagenta;
+    
+
+}
+input.equal{
+    width: 131px;
+    background: black;
+    color: aquamarine;
+}
+.text_input{
+
+    width: 254px;
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: black;
+   
+}
